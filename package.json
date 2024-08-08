@@ -2,17 +2,17 @@
   "name": "image-processing-loader",
   "private": false,
   "description": "A library for image processing loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/image-processing-loader.umd.js",
   "module": "dist/image-processing-loader.es.js",
   "types": "dist/index.d.ts",
-  "exports":{
-    ".":{
-      "import":"./dist/image-processing-loader.es.js",
-      "require":"./dist/image-processing-loader.umd.js",
-      "types":"./dist/index.d.ts"
+  "exports": {
+    ".": {
+      "import": "./dist/image-processing-loader.es.js",
+      "require": "./dist/image-processing-loader.umd.js",
+      "types": "./dist/index.d.ts"
     },
-    "./styles":"./dist/style.css"
+    "./styles": "./dist/style.css"
   },
   "files": [
     "/dist"
@@ -61,7 +61,11 @@
     "type": "git",
     "url": "https://github.com/sundarshahi/image-processing-loader"
   },
-  "keywords": ["image-processing-loader","loaders","animated-loader"],
+  "keywords": [
+    "image-processing-loader",
+    "loaders",
+    "animated-loader"
+  ],
   "author": {
     "name": "Sundar Shahi Thakuri",
     "url": "https://github.com/sundarshahi",
