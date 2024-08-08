@@ -1,1 +1,1 @@
-export { default as ImageProcessingLoader } from "./ImageProcessingLoader/ImageProcessingLoadeer";
+export { default as ImageProcessingLoader } from "./ImageProcessingLoader/ImageProcessingLoader";
