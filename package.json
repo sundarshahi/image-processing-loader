@@ -28,7 +28,8 @@
     "test": "vitest run",
     "watch": "vitest",
     "coverage": "vitest run --coverage",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check-publish":"npm publish --dry-run"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -60,7 +61,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sundarshahi/image-processing-loader"
+    "url": "git+https://github.com/sundarshahi/image-processing-loader.git"
   },
   "keywords": [
     "image-processing-loader",
