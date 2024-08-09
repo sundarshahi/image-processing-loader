@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: lts/*
           registry-url: "https://registry.npmjs.org"
+          scope: "@sundarshahi"
       - run: yarn
       - run: yarn build
       - run: npm publish --provenance --access public
