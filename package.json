@@ -2,7 +2,7 @@
   "name": "@sundarshahi/image-processing-loader",
   "private": false,
   "description": "A library for image processing loader",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "main": "dist/image-processing-loader.umd.js",
   "module": "dist/image-processing-loader.es.js",
