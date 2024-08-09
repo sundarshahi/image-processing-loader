@@ -3,6 +3,7 @@
   "private": false,
   "description": "A library for image processing loader",
   "version": "0.0.2",
+  "type": "module",
   "main": "dist/image-processing-loader.umd.js",
   "module": "dist/image-processing-loader.es.js",
   "types": "dist/index.d.ts",
