@@ -13,7 +13,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: resolve("src", "component/index.ts"),
+      entry: resolve("src", "components/index.ts"),
       name: "ImageProcessingLoader",
       formats: ["es", "umd"],
       fileName: (format) => `image-processing-loader.${format}.js`,
