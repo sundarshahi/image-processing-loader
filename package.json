@@ -1,5 +1,5 @@
 {
-  "name": "image-processing-loader",
+  "name": "@sundarshahi/image-processing-loader",
   "private": false,
   "description": "A library for image processing loader",
   "version": "0.0.3",
