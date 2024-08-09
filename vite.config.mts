@@ -16,8 +16,8 @@ export default defineConfig({
     lib: {
       entry: resolve("src", "components/index.ts"),
       name: "ImageProcessingLoader",
-      formats: ["es", "umd"],
-      fileName: (format) => `image-processing-loader.${format}.js`,
+      formats: ["es", "cjs"],
+      fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
